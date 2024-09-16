@@ -1,0 +1,213 @@
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.brand-color {
+    color: rgb(38 142 38) !important;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.btn {
+    background-color: rgb(38 142 38) !important;
+    border-color: rgba(38, 142, 38, 0.5) !important;
+}
+
+nav .nav-link {
+    color:whitesmoke !important;
+}
+
+nav .nav-link.active {
+    color: rgb(38 142 38) !important;
+}
+
+.nav-link {
+    color:rgb(38 142 38) !important;
+}
+
+.nav-link i {
+    color:rgb(38 142 38) !important;
+}
+
+
+.nav-link.active {
+    color: rgb(38 142 38) !important;
+    ;
+    border-color: rgb(38 142 38) !important;
+}
+
+#logo-icon {
+    font-size: 2rem;
+}
+
+#logo-name {
+    font-size: 2rem;
+}
+
+header {
+    background-color: rgba(33, 37, 41, 0.8);
+    background-blend-mode: multiply;
+    background-image: url("../images/bg-hero.jpg");
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@keyframes dish-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#header-dish {
+    animation: 60s linear 0s infinite normal dish-spin;
+}
+
+.image-box {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    -webkit-transition: background-color 0.5s, box-shadow 0.5s;
+    -moz-transition: background-color 0.5s, box-shadow 0.5s;
+    -o-transition: background-color 0.5s, box-shadow 0.5s;
+    -ms-transition: background-color 0.5s, box-shadow 0.5s;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+.image-box:hover {
+    background-color:rgb(38 142 38) !important;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+}
+
+.image-box h5, .image-box i, .image-box p {
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    -ms-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.image-box:hover h5,.image-box:hover i,.image-box:hover p {
+    color: white !important;
+}
+
+.image-box-icon {
+    font-size: 3rem;
+}
+
+.image-grid-item:nth-child(2)>img,
+.image-grid-item:nth-child(3)>img {
+    width: 70%;
+}
+
+.about-us-info {
+    white-space: nowrap;
+}
+
+.about-us-numbers {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.about-us-bold {
+    font-weight: 700;
+}
+
+.menu-item {
+    -webkit-transition: box-shadow 0.5s, transform 0.5s;
+    -moz-transition: box-shadow 0.5s, transform 0.5s;
+    -o-transition: box-shadow 0.5s, transform 0.5s;
+    -ms-transition: box-shadow 0.5s, transform 0.5s;
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+
+.menu-item:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05, 1.05);
+}
+
+.menu-tab-icon {
+    font-size: 2rem;
+}
+
+.menu img {
+    width: 80px;
+}
+
+#img-booking {
+    background-image: url("../images/couple.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+
+}
+#img-booking-dishes {
+    background-image: url("../images/dishes.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+
+}
+
+.team-member-box {
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    -webkit-transition: transform 0.5s, box-shadow 0.5s;
+    -moz-transition: transform 0.5s, box-shadow 0.5s;
+    -o-transition: transform 0.5s, box-shadow 0.5s;
+    -ms-transition: transform 0.5s, box-shadow 0.5s;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.team-member-box:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+}
+
+.review-box {
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    -ms-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.review-box i, .review-box p, .review-box h5, .review-box small {
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -o-transition: color 0.5s;
+    -ms-transition: color 0.5s;
+    transition: color 0.5s;
+}
+
+.review-box:hover {
+    background-color:rgb(38 142 38) !important;
+}
+
+.review-box:hover i, .review-box:hover p, .review-box:hover h5, .review-box:hover small {
+    color: white !important;
+}
+
+.review-icon {
+    font-size: 3rem;
+}
+
+.review-img {
+    border-radius: 100%;
+    width: 60px;
+}
+
+.modal-dialog {
+    color: black;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
